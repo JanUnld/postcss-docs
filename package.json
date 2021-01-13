@@ -1,0 +1,27 @@
+{
+  "name": "postcss-docs",
+  "version": "0.1.0",
+  "description": "PostCSS doc comments",
+  "main": "index.js",
+  "files": [
+    "src/*.{d.ts,js}"
+  ],
+  "scripts": {
+    "test": "npx jest",
+    "build": "tsc"
+  },
+  "author": "Jan Unnold",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^26.0.20",
+    "jest": "^26.6.3",
+    "prettier": "^2.2.1",
+    "standard-version": "^9.1.0",
+    "ts-jest": "^26.4.4",
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "comment-parser": "^1.0.1",
+    "postcss": "^8.2.4"
+  }
+}

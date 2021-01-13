@@ -1,0 +1,10 @@
+{
+  "include": ["src/**/*.ts","index.ts"],
+  "exclude": ["**/*.spec.ts"],
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ES2015",
+    "baseUrl": ".",
+    "declaration": true
+  }
+}
