@@ -19,7 +19,7 @@ package!** Parsing is done using [`comment-parser`](https://github.com/syavorsky
 Both, the targeted `Rule` node as well as the `Comment` node will contain a `doc` field after
 the processing is done.
 
-```json
+```javascript
 {
   "description": "More complex doc",
   "text": "/** ... */",
